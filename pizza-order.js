@@ -1,3 +1,5 @@
+// TASK 1
+// CALC PRICE OF A PIZZA
 function pizzaPrice(pizza, ...extras) {
   let price = 0;
   switch (pizza) {
@@ -25,6 +27,8 @@ function pizzaPrice(pizza, ...extras) {
   return price;
 };
 
+// TASK 2
+// CALC TOTAL PRICE OF ORDER
 function orderPrice(pizzaOrders) {
   let total = 0;
   for (const order of pizzaOrders) {
