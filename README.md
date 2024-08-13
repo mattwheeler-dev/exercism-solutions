@@ -9,5 +9,5 @@
 <br />
   Trimmed the exports and the commented sections from Exercism.
 <br />
-  I recommend checking the site out <a href="https://exercism.org/dashboard" target="_blank"> { here } </a> if you haven't already. 
+  I recommend checking the site out <a href="https://exercism.org/dashboard" target="_blank">{ here }</a> if you haven't already. 
 </p>
