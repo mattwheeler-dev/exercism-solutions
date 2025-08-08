@@ -1,18 +1,16 @@
 // Task 1
 const getListOfWagons => (...wagons) {
-  return Array.from(wagons);
+  return wagons;
 }
 
 // Task 2
-const fixListOfWagons => (ids) {
-  const [first, second, ...others] = ids; 
-  return [...others, first, second];
+const fixListOfWagons => ([first, second, ...rest]) {
+  return [...rest, first, second];
 }
 
 // Task 3
-const correctListOfWagons => (ids, missingWagons) {
-  const [first, ...others] = ids;
-  return [first, ...missingWagons, ...others];
+const correctListOfWagons => ([first, ...rest], missingWagons) {
+  return [first, ...missingWagons, ...rest];
 }
 
 // Task 4
@@ -24,7 +22,6 @@ const extendRouteInformation => (information, additional) {
 }
 
 // Task 5
-const separateTimeOfArrival => (information) {
-  const {timeOfArrival, ...rest} = information;
+const separateTimeOfArrival => ({timeOfArrival, ...rest}) {
   return [timeOfArrival, rest];
 }
